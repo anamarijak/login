@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Quizard</a>
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+  </ul>
+  <form #loginForm="ngForm" class="form-inline" (ngSubmit)="login()">
+    <a href='/' class="btn btn-danger my-2 my-sm-0" type="submit">Log Out</a>
+  </form>
+</nav>
+
+<h1 style="text-align: center;">Dobrodošao kvizardu __IME KORISNIKA__</h1>
